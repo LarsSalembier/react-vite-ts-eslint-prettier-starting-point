@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="bg-gray-900 text-white h-screen flex flex-col justify-center items-center">
       <header className="text-center mb-8">
-        <div className="flex justify-center items-center mb-4 space-x-16">
+        <div className="flex justify-center items-center mb-4 flex-wrap space-x-16">
           <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer">
             <img src={viteJsLogo} alt="Vite logo" width="100" height="100" />
             <div className="sr-only">Vite</div>
